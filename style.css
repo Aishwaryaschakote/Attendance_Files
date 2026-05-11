@@ -1,0 +1,274 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+
+
+body{
+
+  font-family:Arial;
+
+  background:#f5f5f5;
+
+  padding:20px;
+}
+
+
+
+.container{
+
+  max-width:500px;
+
+  margin:auto;
+}
+
+
+
+h1{
+
+  text-align:center;
+
+  margin-bottom:20px;
+
+  font-size:42px;
+
+  color:#111;
+}
+
+
+
+/* ======================================
+   DATE
+====================================== */
+
+.date-container{
+
+  margin-bottom:18px;
+
+  background:white;
+
+  padding:16px;
+
+  border-radius:16px;
+
+  box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+
+
+.date-container label{
+
+  display:block;
+
+  margin-bottom:10px;
+
+  font-weight:bold;
+
+  color:#333;
+}
+
+
+
+.date-container input{
+
+  width:100%;
+
+  padding:14px;
+
+  border:none;
+
+  border-radius:12px;
+
+  background:#f5f5f5;
+
+  font-size:18px;
+}
+
+
+
+/* ======================================
+   STUDENT CARD
+====================================== */
+
+.student-card{
+
+  background:white;
+
+  padding:18px;
+
+  border-radius:16px;
+
+  margin-bottom:15px;
+
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+
+  transition:0.2s;
+}
+
+
+
+.student-name{
+
+  font-size:22px;
+
+  font-weight:bold;
+
+  margin-bottom:15px;
+
+  color:#111;
+}
+
+
+
+/* ======================================
+   BUTTON ROW
+====================================== */
+
+.row{
+
+  display:flex;
+
+  gap:10px;
+}
+
+
+
+.box{
+
+  flex:1;
+
+  padding:16px;
+
+  border-radius:14px;
+
+  text-align:center;
+
+  font-size:18px;
+
+  font-weight:bold;
+
+  cursor:pointer;
+
+  transition:0.15s;
+
+  user-select:none;
+}
+
+
+
+.box:active{
+
+  transform:scale(0.96);
+}
+
+
+
+/* ======================================
+   ATTENDANCE
+====================================== */
+
+.present{
+
+  background:#d4f5d4;
+
+  color:#006600;
+}
+
+
+
+.absent{
+
+  background:#ffd6d6;
+
+  color:#b00020;
+}
+
+
+
+/* ======================================
+   HOMEWORK
+====================================== */
+
+.hwdone{
+
+  background:#d9e8ff;
+
+  color:#0044aa;
+}
+
+
+
+.hwmiss{
+
+  background:#ffe5bf;
+
+  color:#cc6600;
+}
+
+
+
+/* ======================================
+   SAVE BUTTON
+====================================== */
+
+#saveBtn{
+
+  width:100%;
+
+  padding:18px;
+
+  border:none;
+
+  border-radius:16px;
+
+  background:#111;
+
+  color:white;
+
+  font-size:18px;
+
+  font-weight:bold;
+
+  margin-top:20px;
+
+  cursor:pointer;
+
+  transition:0.2s;
+}
+
+
+
+#saveBtn:active{
+
+  transform:scale(0.97);
+}
+
+
+
+#saveBtn:disabled{
+
+  opacity:0.7;
+
+  cursor:not-allowed;
+}
+
+
+
+/* ======================================
+   STATUS
+====================================== */
+
+#saveStatus{
+
+  text-align:center;
+
+  margin-top:15px;
+
+  color:green;
+
+  font-weight:bold;
+
+  min-height:24px;
+}
